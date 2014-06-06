@@ -1,0 +1,318 @@
+body {
+	/*background: black url(http://www.fitfactoryhiram.com/wp-content/uploads/2013/03/black-pattern-background.jpg) repeat-y center top;*/
+	background:  #D8D6CB repeat-y center top;
+	font-family: "QuattrocentoSans-Regular";
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background-color: #D8D6CB;
+	height: 88px;
+	border-bottom: 1px solid white;
+	padding: 36px 0 0;
+}
+
+#header>div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: right;
+}
+/** Logo **/
+#logo {
+	float: left;
+}
+
+#logo p{
+	font-size:30pt;
+	font-family:"Oswald";
+	border-bottom: 3px solid #336699;
+	margin-top:5%;
+}
+
+/** Navigation **/
+#navigation {
+	display: inline-block;
+	line-height: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	*width: 345px; /** Needed for IE7 **/
+}
+
+#navigation li {
+	float: left;
+	margin: 0 15px;
+}
+
+#navigation li:first-child {
+	margin-left: 0;
+}
+
+#navigation li a {
+	color: black;
+	font-family: "Courier";
+	font-size: 20px;
+	padding: 0 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navigation li a:hover,#navigation li.selected a {
+	color: #336699;
+	font-weight: bold;
+	text-decoration:underline;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	/*background-color: #CCCC99;*/
+	background-color: #FFFDE8;
+	background-position: -961px top;
+	background-repeat: repeat-y;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#contents>div {
+	background-position: -1931px bottom;
+	width: 960px;
+	padding: 0 5px 10px;
+}
+
+#contents div.body {
+	background-position: 1px top;
+	display: inline-block;
+	width: 1000px;
+	padding: 10px 10px 0;
+}
+
+#contentinbody{
+	width: 1065px;
+	border-color: #336699;
+	border-width: 1px;
+	border-style: solid solid solid;
+	/*top, left, right, bottom*/
+	margin: -10px -5px 5px 0px;
+	position: relative;
+}
+
+#centerimage{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#blog2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blog2 h3{
+  text-align: left;
+	color: black;
+	font-family: "Oswald";
+	font-weight: normal;
+	margin: 0 0 10px;
+	margin-left : 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #336699;
+}
+
+#blog h3{
+	color: black;
+	font-family: "Oswald";
+	font-weight: normal;
+	margin: 0 0 10px;
+	margin-left : 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #336699;
+} 
+
+
+#contents div.body h1 {
+	color: black;
+	font-family: "Oswald";
+	font-size: 34px;
+	font-weight: normal;
+	margin: 0 0 18px;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+#contents div.body h2 {
+	color: black;
+	font-family: "Oswald";
+	font-weight: normal;
+	margin: 10px 0 18px;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+#contents div.body h4 {
+	color: black;
+	font-family: "Oswald";
+	font-weight: normal;
+	margin: 0 0 18px;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+#contents p {
+	font-family: courier;
+	color: black;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	margin-left : 15px;
+	margin-right: 15px;
+	padding: 0 0 24px;
+	text-align: justify;
+}
+
+#contents p a {
+	color: #336699;
+}
+
+#contents p a:hover {
+	color: #336699;
+	font-weight: bold;
+}
+
+
+/** Main **/
+#main {
+	width: 448px;
+}
+/** Sidebar **/
+#sidebar {
+	float: right;
+	background-position: 0 0;
+	width: 432px;
+	margin-left: 20px;
+	padding: 2px 0 0;
+}
+
+#sidebar div.body {
+	background-position: -438px 0;
+	background-repeat: repeat-y;
+	min-height: 100px;
+	width: 432px;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+#sidebar div.contact {
+	background: none;
+	height: auto;
+	width: 392px;
+	padding: 20px 20px 0;
+}
+
+#sidebar div.contact p {
+	text-align: center;
+}
+
+#contents #about,#contents #contact {
+	min-height: 900px;
+	width: 900px;
+	padding: 20px 30px 0;
+}
+/** About **/
+#about p span {
+	font-size: 12px;
+}
+
+#about #main h1 {
+	background: url(../images/separator-light.png) repeat-x left bottom;
+	padding: 0 0 18px;
+}
+
+#about #main h4 {
+	color: #626161;
+	font-family: "Oswald";
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+}
+
+#projectinbody a{
+  font-family: courier;
+  font-size: 10pt;
+  color : black;
+}
+#projectinbody a:hover{
+  color : #336699;
+  font-size:12pt;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background-color: #336699;
+	border-top: 1px solid #fff;
+	padding: 28px 0 14px;
+	
+}
+
+#footer p {
+	color: white;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+
+#footer>div {
+	border-color: #fff;
+	border-width: 1px;
+	border-style: solid none solid;
+	width: 1100px;
+	margin: auto auto;
+	padding: 10px;
+}
+
+#footer ul.navigation {
+	float: right;
+	display: inline-block;
+	line-height: 24px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul.navigation li {
+	float: left;
+	margin-left: 15px;
+}
+
+#footer ul.navigation li:first-child {
+	margin-left: 0;
+}
+
+#footer ul.navigation li a {
+	color: white;
+	font: 14px/24px "Oswald";
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+}
+
+#footer ul.navigation li a:hover {
+	color: white;
+}
+
+#footer #footnote {
+	color: white;
+	font: 14px/24px "Courier";
+	margin: 0;
+	/*text-transform: uppercase;*/
+}
+

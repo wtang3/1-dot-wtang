@@ -1,0 +1,132 @@
+/* Css File */
+h1.fifteen{
+text-align: center;
+}
+
+p.paragraph{
+margin-left:auto;
+margin-right:auto;
+width:600px;
+}
+
+p{text-align:center;}
+
+
+.touchingCells {
+background-color: Red;
+cursor: pointer;
+}
+.image
+{
+display: inline-block;
+width: 96px;
+height: 96px;
+background-image: url("http://fc03.deviantart.net/fs10/i/2006/131/d/2/Tux_Ninja_by_fragmeister.png");
+background-repeat: no-repeat;
+border: 2px solid black;
+padding: 0px;
+text-align: center;
+color:red;
+}
+
+.image1
+{
+background-position: 0px 0px;
+font-size:20px;
+
+}
+.image2
+{
+background-position: -96px 0px;
+font-size:20px;
+
+}
+img.image3
+{
+background-position: -192px 0px;
+font-size:20px;
+
+}
+.image4
+{
+background-position: -288px 0px;
+ 
+font-size:20px;
+ 
+}
+.image5
+{
+background-position: 0px -96px;
+ 
+font-size:20px;
+ 
+}
+.image6
+{
+background-position: -96px -96px;
+ 
+font-size:20px;
+ 
+}
+.image7
+{
+background-position: -192px -96px;
+ 
+font-size:20px;
+ 
+}
+.image8
+{
+background-position: -288px -96px;
+ 
+font-size:20px;
+ 
+}
+.image9
+{
+background-position: -0px -192px;
+ 
+font-size:20px;
+ 
+}
+.image10
+{
+background-position: -96px -192px;
+ 
+font-size:20px;
+ 
+}
+.image11
+{
+background-position: -192px -192px;
+ 
+font-size:20px;
+ 
+}
+.image12
+{
+background-position: -288px -192px;
+ 
+font-size:20px;
+ 
+}
+.image13
+{
+background-position: 0px -288px;
+ 
+font-size:20px;
+ 
+}
+.image14
+{
+background-position: -96px -288px;
+ 
+font-size:20px;
+ 
+}
+.image15
+{
+background-position: -192px -288px;
+font-size:20px;
+ 
+}

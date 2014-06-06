@@ -1,0 +1,102 @@
+#content{}
+
+#canvas{}
+
+#gearbox{
+  position:                     absolute;
+  top :                         20%;
+  left :                        60%;
+  width :                       140px;
+  height :                      200px;
+  color :                       black;
+  border :                      solid 5px;
+  border-bottom-right-radius:   35px 35px;
+  border-bottom-left-radius:    35px 35px;
+  border-top-left-radius:       35px 35px;
+  border-top-right-radius:      35px 35px;
+  background-color:             #333333;
+}
+
+#shiftknob{
+  position :                    absolute;
+  top :                         30%;
+  left :                        25%;
+  transition :                  left .5s ease-in, top .5s ease-in;
+}
+
+#gearlines{
+  color: white;
+}
+#gear1n2{
+  position :                    absolute;
+  top :                         15%;
+  left :                        15%;
+  border-left :                 thick solid;
+  height :                      70%;
+}
+
+#gear3n4{
+  position :                    absolute;
+  top :                         15%;
+  left :                        49%;
+  border-left :                 thick solid;
+  height :                      70%;
+}
+
+#gear5n6{
+  position :                    absolute;
+  top :                         15%;
+  left:                         80%;
+  border-left:                  thick solid;
+  height :                      70%;
+}
+
+#neutral_line{
+  position :                    absolute;
+  border-top :                  thick solid ;
+  left :                        15%;
+  top :                         50%;
+  width :                       65%;
+}
+
+#gearnums{
+  font-weight :                 bold;
+  color :                       white;
+}
+
+#one{
+  position :                    absolute;
+  left :                        14%;
+  top :                         5%;
+}
+
+#two{
+  position :                    absolute;
+  left :                        14%;
+  top :                         85%;
+}
+
+#three{
+  position :                    absolute;
+  left :                        48%;
+  top :                         5%;
+}
+
+#four{
+  position :                    absolute;
+  position :                    absolute;
+  left :                        48%;
+  top :                         85%;
+}
+
+#five{
+  position :                    absolute;
+  left :                        80%;
+  top :                         5%;
+}
+
+#six{
+  position :                    absolute;
+  left :                        80%;
+  top :                         85%; 
+}

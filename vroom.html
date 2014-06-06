@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vroom...</title>
+    <link rel = "stylesheet" type = "text/css" href = "assets/bootstrap-3.1.1-dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/bootstrap-3.1.1-dist/css/bootstrap-theme.min.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/vroom_old.css">
+  </head>
+  <body>
+    <div id = "content">
+      <div id = "title">Vroom Game . . .</div>
+      <div id = "canvas">
+        <p>Working on it now, the gears dont shift the way I want it but they will for sure ;) - 5/16/14</p>
+        <p>If you click on the numbers the shifter should slide to the correct 
+        location simulating a gear shift, but its not realistic. It needs to shift to the left then up to 
+        one when pressing the first gear.<br> I will accomplish this with mouse location.
+        <a href ="vroom2.html">vroom2</a> - 5/24/14
+        </p>
+    
+        <div id = "gearbox">
+          <div id = "gearnums">
+            <div id = "one">1</div>
+            <div id = "two">2</div>
+            <div id = "three">3</div>
+            <div id = "four">4</div>
+            <div id = "five">5</div>
+            <div id = "six">6</div>
+          </div>
+          <div id = "gearlines">
+            <div id = "gear1n2"></div>
+            <div id = "gear3n4"></div>
+            <div id = "gear5n6"></div>
+            <div id = "neutral_line"></div>
+          </div>
+          <div id = "shiftknob"><img src = "images/black_shiftknob.png"></div>
+        </div>
+        <script src = "assets/vroom_animate.js"></script>
+        <script>
+          var shiftknob = document.querySelector("#shiftknob");
+          var container = document.querySelector("#gearbox");
+          container.addEventListener("click", getClickPosition, false);
+          function getClickPosition(e) {
+            var parentPosition = getPosition(e.currentTarget);
+            var xPosition = e.clientX - parentPosition.x - (shiftknob.clientWidth) + 35;
+            var yPosition = e.clientY - parentPosition.y - (shiftknob.clientHeight) + 40
+            shiftknob.style.left = xPosition + "px";
+            shiftknob.style.top = yPosition + "px";
+          }
+          function getPosition(element) {
+            var xPosition = 0;
+            var yPosition = 0;   
+            while (element) {
+              //xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+              xPosition += (element.offsetLeft);
+              //yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+              yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+              element = element.offsetParent;
+            }
+            return { x: xPosition, y: yPosition }; 
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

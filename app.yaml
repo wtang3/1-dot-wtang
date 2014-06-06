@@ -1,0 +1,32 @@
+application: w-tang
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.html
+
+- url: /bio
+  script: bio.html
+
+- url: /projects
+  script: projects.html  
+
+- url: /contact
+  script: contact.html
+
+- url: /assets
+  static_dir: assets
+
+- url: /images
+  static_dir: images
+
+- url: /(.*\.(gif|png|jpg))$
+  static_files: static/\1
+  upload: static/.*\.(gif|png|jpg)$
+
+- url: /(.+\.php)
+  script: \1
+- url: /(.+\.html)
+  script: \1
